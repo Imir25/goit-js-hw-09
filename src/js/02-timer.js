@@ -76,6 +76,8 @@ const options = {
     if (selectedDate <= now) {
       alert("Please choose a date in the future");
       dateTimePicker._flatpickr.clear();
+    } else {
+      startButton.disabled = false;
     }
   },
 };
