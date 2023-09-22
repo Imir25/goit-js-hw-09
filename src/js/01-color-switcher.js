@@ -25,4 +25,4 @@ function stopChangingColor() {
 }
 
 startButton.addEventListener('click', startChangingColor);
-stopButton.addEventListener('click', stopChangingColor);
+
